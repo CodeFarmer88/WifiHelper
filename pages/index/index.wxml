@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+ <button
+  type="primary"
+  size="{{primarySize}}"
+  loading="{{loading}}"
+  plain="{{plain}}"
+  disabled="{{disabled}}"
+  bindtap="scanWiFi">
+  扫码连接
+</button>
+</view>
