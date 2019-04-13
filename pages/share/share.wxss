@@ -1,0 +1,87 @@
+/**index.wxss**/
+.wifi-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20rpx;
+  box-shadow: 10rpx 10rpx 50rpx 10rpx rgba(85, 85, 85, 0.10); 
+}
+
+.connected {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 400rpx;
+  background:linear-gradient(to bottom right, rgba(158, 5, 5, 0.788) , rgb(42, 12, 214));
+  margin-bottom: 50rpx;
+  box-shadow: 10rpx 20rpx 50rpx 0rpx rgba(85, 85, 85, 0.10);
+  align-items: center;
+}
+
+.connected-ssid-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.ssid {
+  width: auto;
+  height: auto;
+  margin: 40rpx;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.light-text {
+  color: white;
+}
+
+.share-container {
+  display: flex;
+  flex-direction: column-reverse;
+  width: auto;
+  height: 100%;
+}
+
+.share {
+  width: auto;
+  height: auto;
+  margin: 40rpx;
+  align-self: flex-end;
+  color: white;
+}
+
+.wifi-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 64rpx;
+  margin: 20rpx 0;
+}
+
+.wifi-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 90%;
+  align-items: center;
+}
+
+.wifi-id {
+  margin-left: 40rpx;
+}
+
+.wifi-connected-icon {
+  margin-right: 40rpx;
+}
+
+.hover {
+  color: green;
+}

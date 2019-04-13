@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/share/share",
     "pages/qrcode/qrcode"
   ],
   "window": {
@@ -16,8 +17,8 @@
         "text": "扫码连接"
       },
       {
-        "pagePath": "pages/qrcode/qrcode",
-        "text": "二维码器"
+        "pagePath": "pages/share/share",
+        "text": "共享网络"
       }
     ]
   }

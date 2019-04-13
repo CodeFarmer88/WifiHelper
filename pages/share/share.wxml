@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="wifi-list-container">
+  <block>
+    <view class='connected'>
+      <view class='connected-ssid-container'>
+        <view class='ssid'>
+          {{connectedWifiInfo.SSID}}
+        </view>
+        <view class='light-text'>已连接</view>
+      </view>
+      <view class='share-container'>
+        <view hover-class='hover' class='share'>
+          分享wifi
+        </view>
+      </view>
+    </view>
+  </block>
+  <block wx:for="{{wifiInfos}}" wx:for-item="info">
+    <view hover-class='hover' class='wifi-container' data-wifiinfo='{{info}}' bindtap='navToQrcodeMaker'>
+      <view class='wifi-item-container'>
+        <view class='wifi-id'>
+          {{info.SSID}}
+        </view>
+        <!-- <icon class='wifi-connected-icon' type='success' /> -->
+      </view>
+    </view>
+  </block>
+</view>

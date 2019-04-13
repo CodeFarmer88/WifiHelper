@@ -1,11 +1,2 @@
-<!--index.wxml-->
-<view class="container">
-
-  <view wx:for="{{wifiInfos}}" wx:for-item="info">
-   {{info}}
-  </view>
-
-  <view>
-    <button bindtap='getWifiList'>刷新</button>
-  </view>
-</view>
+<!--pages/qrcode/qrcode.wxml-->
+<text>pages/qrcode/qrcode.wxml</text>

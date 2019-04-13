@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "生成二维码",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}
