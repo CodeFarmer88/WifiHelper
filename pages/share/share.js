@@ -24,8 +24,10 @@ Page({
     getWifiList()
   },
   navToQrcodeMaker: function(event) {
+    var info = event.currentTarget.dataset.wifiinfo
+    var query = "ssid=" + info.SSID + "&" + "bssid=" + info.BSSID
     wx.navigateTo({
-      url: '/pages/qrcode/qrcode?wifi={{event.currentTarget.dataset.wifiinfo}}',
+      url: '/pages/qrcode/qrcode?' + query,
     })
   }
 })
